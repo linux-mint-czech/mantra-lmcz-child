@@ -1,0 +1,10 @@
+.login h1 {
+	background-image: url("images/login-logo.png");
+	width: 352px;
+	height: 151px;
+}
+
+.login h1 a {
+	display: none;
+}
+
