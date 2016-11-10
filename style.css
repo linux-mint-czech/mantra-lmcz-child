@@ -88,6 +88,15 @@ body {
 	width: 90%
 }
 
+.widget-title a.rsswidget:first-child {
+  display: none;
+}
+
+.widget-title a.rsswidget:last-child {
+  color: inherit;
+  font-size: inherit;
+}
+
 #main .widget-area ul.xoxo{
 	padding-right:10px;
 	padding-left:10px;
