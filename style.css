@@ -1,0 +1,299 @@
+/*
+ * Theme Name: Mantra - Linux Mint Czech Child
+ * Theme URI: http://www.linux-mint-czech.cz/
+ * Description: WordPress theme from Linux-Mint-Czech.cz website, base on Mantra WordPress theme by Cryout Creations.
+ * Author: Linux-Mint-Czech.cz
+ * Author URI: http://www.linux-mint-czech.cz/
+ * Template: mantra
+ * Version: 2.3.2
+ * License: GNU General Public License v2.0
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+#linky {
+	background-image:  url('/wp-content/uploads/2014/01/headLM35.png'); /*url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICR‌​AEAOw==');*/
+}
+
+#wrapper {
+	box-shadow: gray 0 1px 10px 1px;
+}
+
+body {
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f9f9f9), color-stop(1, #555555));
+	background-image: -moz-linear-gradient(center top, #f9f9f9 0%, #555555 100%);
+	background-image: -o-linear-gradient(top, #f9f9f9 0%, #555555 100%);
+	background-image: -ms-linear-gradient(top, #f9f9f9 0%, #555555 100%);
+}
+
+#content {
+	line-height:inherit;
+}
+
+.entry-content ul>li {
+	background: nont;
+	padding-bottom:3px;
+	list-style:disc;
+	list-style-position: inside;
+}
+
+#access a {
+	color: #fff;
+	font-size: 16px;
+}
+
+#access ul li {
+	display:block;
+	float:left;
+	background:#333;
+	margin:0 3px;
+	padding:3px 0;
+	-moz-box-shadow:0 -3px 4px rgba(0,0,0,0.1) inset;
+	-webkit-box-shadow:0 -3px 4px rgba(0,0,0,0.1) inset;
+	box-shadow:0 -3px 4px rgba(0,0,0,0.1) inset;
+	-webkit-border-radius: inherit;
+	-moz-border-radius: inherit;
+	border-radius: inherit;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	white-space: nowrap;
+}
+
+.footermenu ul li {
+	padding-right: 10px;
+}
+
+#content .entry-title {
+  text-shadow: none;
+}
+
+.gallery-item {
+	max-width: -webkit-calc(11.1%) !important;
+	max-width: -moz-calc(11.1% - 1em) !important;
+}
+
+.commentlist li.comment {
+	line-height: normal;
+	background: transparent;
+}
+
+.widget-area ul ul li {
+	border-bottom: 1px solid #D9D9D9;
+}
+
+.widget-title {
+	margin: 0 0 5px 0;
+	background-color:#333 !important;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	width: 90%
+}
+
+#main .widget-area ul.xoxo{
+	padding-right:10px;
+	padding-left:10px;
+	border-left: 1px solid #d9d9d9;
+}
+
+#s {
+	border: 1px solid #383838;
+	color: #fff;
+	height: 30px;
+	float: left;
+	padding: 0 10px;
+	font-size: 16px; 
+	background-color: #777;
+}
+
+#searchform {
+	margin-bottom:0;
+	float: right;
+	bottom: 50px;
+}
+
+#searchform #s:hover , #container #s:hover {
+	color: white !important;
+}
+
+#searchsubmit {
+	border: 1px solid #777;
+	line-height: 0;
+	font-size: 0;
+	height: 30px;
+	width: 38px;
+	background: url("/wp-content/themes/mantra-lmcz-child/images/search-left.png") no-repeat center right scroll;
+	opacity: 0.8;
+}
+
+#searchsubmit:hover {
+	background:inherit;
+	opacity: 1.0;
+}
+
+#footer-widget-area ul ul li {
+	padding-bottom:5px;
+	border-bottom: 1px solid #000;
+}
+
+.download-form {
+	background: #668638;
+	border: 1px solid black;
+	width: 1010px;
+	padding: 20px 40px;
+}
+
+.download-form h1 {
+	color: #a8e070;
+	padding-bottom: 10px;
+}
+
+.download-form tr td {
+	vertical-align: middle;
+}
+
+.download-form .desc {
+	color: #fff;
+	padding-left: 220px;
+}
+
+.download-form button {
+	background: #a8e070;
+	color: #fff;
+	border: 1px solid black;
+	width: 60px;
+	margin: 2px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#footer2 {
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	background: #171717;
+}
+
+#header-container >div#sheader {
+	right: 110px;
+}
+
+article.post {
+	border-bottom: 1px solid #d9d9d9;
+}
+
+/************************************************
+*	Extra										*
+************************************************/
+#hash-table th
+{
+	text-align: left;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 15px;
+  padding-left: 100px;
+}
+
+.download-table
+{
+	width: 78%;
+}
+ 
+-/* FIN! */
+.download-table select
+{
+	width: 75%;
+}
+
+.download-td-small
+{
+	width: 48px;
+}
+
+#hash-table
+{	
+	background: #f0f0f0;	
+	width: 100%;	
+}
+
+#hash-table tr
+{
+	border: 1px solid black;
+}
+
+#hash-table td
+{
+	padding: 0px 0px 0px 15px;	
+	border-bottom: 1px solid black;
+	text-align: left;
+  padding-left: 100px;
+}
+
+#hash-table tr:nth-child(2n1)>td:first-child
+{
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;
+  padding-left: 100px;
+}
+
+#hash-table tr:nth-child(2n)
+{
+	background: white;
+}
+
+#hash-table th
+{
+	border-bottom: 1px solid black; 
+}
+
+#access .menu-bg1 a, #access .menu-bg1 a:hover, #access .menu-bg1 a:focus
+{
+  background-image:url('http://test.linux-mint-czech.cz/wp-content/uploads/2014/01/domu.png');
+  background-repeat: no-repeat;
+  background-position: 0.3em -0.2em;
+}
+#access .menu-bg1 a:hover, #access .menu-bg1 a:focus
+{
+  color:#fff;
+  opacity:0.7;
+  filter:alpha(opacity=70);
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+/* EXTRA */
+.code-table
+{
+	border-color: #999999 !important;
+	/*line-height: 25px;*/
+	table-layout: fixed;
+	width: 100%;
+} 
+
+.code-table th
+{
+	padding: 8px !important;
+	font-family: Droid sans;
+	font-size: 14px;
+	font-style: bold;
+	color: #fff !important;
+	/*text-shadow: rgba(0, 0, 0, 0.298039) 2px 4px 3px;*/
+	background-color: #333 !important;
+	border: 1px solid #999999;
+}
+
+.code-table td
+{
+	padding: 5px;
+	font-family: monospace;
+	background-image: linear-gradient(#ebecda 0%, #e0e0c6 40%, #ceceb7 100%);
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-color: #999999;
+}
+
