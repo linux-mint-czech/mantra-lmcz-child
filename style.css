@@ -181,10 +181,6 @@ body {
 	background: #171717;
 }
 
-#header-container >div#sheader {
-	right: 110px;
-}
-
 article.post {
 	border-bottom: 1px solid #d9d9d9;
 }

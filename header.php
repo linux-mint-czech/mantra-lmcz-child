@@ -34,11 +34,6 @@
 			<div id="branding" role="banner" >
 
 				<?php cryout_branding_hook();?>
-				<!-- +1 button  -->
-				<div style="position: relative; left: 91%; top: 10px;">
-					<div class="g-plusone" data-href="http://www.linux-mint-czech.cz/"></div>
-				</div>
-				<!-- end +1 button -->
 				<div style="clear:both;"></div>
 
 			</div><!-- #branding -->
