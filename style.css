@@ -97,6 +97,15 @@ body {
   font-size: inherit;
 }
 
+.widget.buddypress #bp-login-widget-form label[for=bp-login-widget-user-login],
+.widget.buddypress #bp-login-widget-form #bp-login-widget-user-login,
+.widget.buddypress #bp-login-widget-form label[for=bp-login-widget-user-pass],
+.widget.buddypress #bp-login-widget-form #bp-login-widget-user-pass,
+.widget.buddypress #bp-login-widget-form .forgetmenot
+{
+	display: none;
+}
+
 #main .widget-area ul.xoxo{
 	padding-right:10px;
 	padding-left:10px;
