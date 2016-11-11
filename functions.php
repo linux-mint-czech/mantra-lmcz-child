@@ -6,6 +6,12 @@ function mantra_css() {
 	wp_enqueue_style('mantra', get_template_directory_uri().'/style.css');
 }
 
+/* Enqueue login stylesheet */
+add_action('login_enqueue_scripts', 'lmcz_custom_login');
+function lmcz_custom_login() {
+	wp_enqueue_style('lmcz_login', get_stylesheet_directory_uri().'/login.css');
+}
+
 /* Remove information about WordPress and its version from HTML */
 remove_action('wp_head', 'wp_generator');
 function remove_cssjs_ver( $src ) {
