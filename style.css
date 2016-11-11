@@ -11,7 +11,7 @@
 */
 
 #linky {
-	background-image:  url('/wp-content/uploads/2014/01/headLM35.png'); /*url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICR‌​AEAOw==');*/
+	background-image: url('/wp-content/uploads/2014/01/headLM35.png'); /*url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICR‌​AEAOw==');*/
 }
 
 #wrapper {
@@ -138,7 +138,7 @@ body {
 	font-size: 0;
 	height: 30px;
 	width: 38px;
-	background: url("/wp-content/themes/mantra-lmcz-child/images/search-left.png") no-repeat center right scroll;
+	background: url("images/search-left.png") no-repeat center right scroll;
 	opacity: 0.8;
 }
 
@@ -261,7 +261,7 @@ article.post {
 
 #access .menu-bg1 a, #access .menu-bg1 a:hover, #access .menu-bg1 a:focus
 {
-  background-image:url('http://test.linux-mint-czech.cz/wp-content/uploads/2014/01/domu.png');
+  background-image: url('/wp-content/uploads/2014/01/domu.png');
   background-repeat: no-repeat;
   background-position: 0.3em -0.2em;
 }
