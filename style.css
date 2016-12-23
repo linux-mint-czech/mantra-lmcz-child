@@ -26,10 +26,10 @@ body {
 }
 
 .entry-content ul>li {
-	background: nont;
-	padding-bottom:3px;
+	background: none;
 	list-style:disc;
 	list-style-position: inside;
+	padding-left: inherit;
 }
 
 #access a {
