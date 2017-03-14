@@ -152,7 +152,6 @@ body {
 	background: #668638;
 	border: 1px solid black;
 	width: 1010px;
-	padding: 20px 40px;
 }
 
 .download-form h1 {
@@ -202,15 +201,24 @@ article.post {
   padding-left: 100px;
 }
 
-.download-table
+.download-form .download-table
 {
 	width: 78%;
+    border: none;
 }
  
 -/* FIN! */
-.download-table select
+.download-form .download-table select
 {
 	width: 75%;
+}
+
+.download-form .download-table tr {
+    background: transparent;
+}
+
+.download-form .download-table tr td {
+    border: none;
 }
 
 .download-td-small
@@ -221,12 +229,13 @@ article.post {
 #hash-table
 {	
 	background: #f0f0f0;	
-	width: 100%;	
+	width: 1010px;
 }
 
 #hash-table tr
 {
 	border: 1px solid black;
+    background: transparent;
 }
 
 #hash-table td
