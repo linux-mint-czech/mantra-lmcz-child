@@ -10,6 +10,17 @@ register_default_headers( array(
  )
 );
 
+/* Add search form to the header */
+add_action('cryout_access_hook', 'lmcz_mantra_header_search');
+function lmcz_mantra_header_search() {
+    echo '<form method="get" id="searchform" action="'.get_home_url().'">
+        <div>
+            <input type="text" size="10" value="'.esc_html(get_query_var('s')).'" name="s" id="s" />
+            <input type="submit" id="searchsubmit" value="Hledat na webu" class="btn" />
+        </div>
+    </form>';
+}
+
 /* Enqueue Mantra original stylesheet */
 add_action('wp_enqueue_scripts', 'mantra_css');
 function mantra_css() {
