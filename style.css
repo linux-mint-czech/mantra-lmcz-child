@@ -148,36 +148,6 @@ body {
 	border-bottom: 1px solid #000;
 }
 
-.download-form {
-	background: #668638;
-	border: 1px solid black;
-	width: 1010px;
-}
-
-.download-form h1 {
-	color: #a8e070;
-	padding-bottom: 10px;
-}
-
-.download-form tr td {
-	vertical-align: middle;
-}
-
-.download-form .desc {
-	color: #fff;
-	padding-left: 220px;
-}
-
-.download-form button {
-	background: #a8e070;
-	color: #fff;
-	border: 1px solid black;
-	width: 60px;
-	margin: 2px;
-	cursor: pointer;
-	font-weight: bold;
-}
-
 #footer2 {
 	color: #fff;
 	padding: 10px;
@@ -192,77 +162,6 @@ article.post {
 /************************************************
 *	Extra										*
 ************************************************/
-#hash-table th
-{
-	text-align: left;
-	font-weight: bold;
-	font-size: 15px;
-	padding: 15px;
-  padding-left: 100px;
-}
-
-.download-form .download-table
-{
-	width: 78%;
-    border: none;
-}
- 
--/* FIN! */
-.download-form .download-table select
-{
-	width: 75%;
-}
-
-.download-form .download-table tr {
-    background: transparent;
-}
-
-.download-form .download-table tr td {
-    border: none;
-}
-
-.download-td-small
-{
-	width: 48px;
-}
-
-#hash-table
-{	
-	background: #f0f0f0;	
-	width: 1010px;
-}
-
-#hash-table tr
-{
-	border: 1px solid black;
-    background: transparent;
-}
-
-#hash-table td
-{
-	padding: 0px 0px 0px 15px;	
-	border-bottom: 1px solid black;
-	text-align: left;
-  padding-left: 100px;
-}
-
-#hash-table tr:nth-child(2n1)>td:first-child
-{
-	font-size: 14px;
-	font-weight: normal;
-	text-align: left;
-  padding-left: 100px;
-}
-
-#hash-table tr:nth-child(2n)
-{
-	background: white;
-}
-
-#hash-table th
-{
-	border-bottom: 1px solid black; 
-}
 
 #access .menu-bg1 a, #access .menu-bg1 a:hover, #access .menu-bg1 a:focus
 {
