@@ -21,6 +21,14 @@ function lmcz_mantra_header_search() {
     </form>';
 }
 
+/* Add welcome to the front page */
+add_action('cryout_before_content_hook', 'lmcz_mantra_front_page_welcome');
+function lmcz_mantra_front_page_welcome() {
+    if (is_front_page()) {
+        echo '<h1 style="text-align: center; color: green; padding: 1em;"><strong>Vítejte na stránkách komunity Linux Mint CZ&amp;SK</strong></h1>';
+    }
+}
+
 /* Enqueue Mantra original stylesheet */
 add_action('wp_enqueue_scripts', 'mantra_css');
 function mantra_css() {
