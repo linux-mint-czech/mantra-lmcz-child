@@ -21,6 +21,10 @@ body {
 	background-image: -ms-linear-gradient(top, #f9f9f9 0%, #555555 100%);
 }
 
+.single-post #content article.post {
+	width: 100% !important;
+}
+
 #content {
 	line-height:inherit;
 }
