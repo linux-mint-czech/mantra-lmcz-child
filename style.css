@@ -25,10 +25,6 @@ body {
 	width: 100% !important;
 }
 
-#content {
-	line-height:inherit;
-}
-
 .entry-content ul>li {
 	background: none;
 	list-style:disc;
@@ -38,28 +34,10 @@ body {
 
 #access a {
 	color: #fff;
-	font-size: 16px;
 }
 
 #access ul li {
-	display:block;
-	float:left;
 	background:#333;
-	margin:0 3px;
-	padding:3px 0;
-	-moz-box-shadow:0 -3px 4px rgba(0,0,0,0.1) inset;
-	-webkit-box-shadow:0 -3px 4px rgba(0,0,0,0.1) inset;
-	box-shadow:0 -3px 4px rgba(0,0,0,0.1) inset;
-	-webkit-border-radius: inherit;
-	-moz-border-radius: inherit;
-	border-radius: inherit;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	white-space: nowrap;
-}
-
-.footermenu ul li {
-	padding-right: 10px;
 }
 
 #content .entry-title {
@@ -76,16 +54,8 @@ body {
 	background: transparent;
 }
 
-.widget-area ul ul li {
-	border-bottom: 1px solid #D9D9D9;
-}
-
 .widget-title {
-	margin: 0 0 5px 0;
 	background-color:#333 !important;
-	border-top-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	width: 90%
 }
 
 .widget-title a.rsswidget:first-child {
@@ -106,12 +76,6 @@ body {
 	display: none;
 }
 
-#main .widget-area ul.xoxo{
-	padding-right:10px;
-	padding-left:10px;
-	border-left: 1px solid #d9d9d9;
-}
-
 #header #searchform {
 	display: none;
 }
@@ -122,10 +86,7 @@ body {
 }
 
 #footer2 {
-	color: #fff;
 	padding: 10px;
-	text-align: center;
-	background: #171717;
 }
 
 article.post {
@@ -135,25 +96,6 @@ article.post {
 /************************************************
 *	Extra										*
 ************************************************/
-
-#access .menu-bg1 a, #access .menu-bg1 a:hover, #access .menu-bg1 a:focus
-{
-  background-image: url('images/domu.png');
-  background-repeat: no-repeat;
-  background-position: 0.3em -0.2em;
-}
-#access .menu-bg1 a:hover, #access .menu-bg1 a:focus
-{
-  color:#fff;
-  opacity:0.7;
-  filter:alpha(opacity=70);
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-}
-
-/* EXTRA */
 .code-table
 {
 	border-color: #999999 !important;
@@ -187,4 +129,3 @@ article.post {
 	border-left-style: solid;
 	border-color: #999999;
 }
-
