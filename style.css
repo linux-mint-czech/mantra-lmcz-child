@@ -112,39 +112,8 @@ body {
 	border-left: 1px solid #d9d9d9;
 }
 
-#s {
-	border: 1px solid #383838;
-	color: #fff;
-	height: 30px;
-	float: left;
-	padding: 0 10px;
-	font-size: 16px; 
-	background-color: #777;
-}
-
-#searchform {
-	margin-bottom:0;
-	float: right;
-	bottom: 50px;
-}
-
-#searchform #s:hover , #container #s:hover {
-	color: white !important;
-}
-
-#searchsubmit {
-	border: 1px solid #777;
-	line-height: 0;
-	font-size: 0;
-	height: 30px;
-	width: 38px;
-	background: url("images/search-left.png") no-repeat center right scroll;
-	opacity: 0.8;
-}
-
-#searchsubmit:hover {
-	background:inherit;
-	opacity: 1.0;
+#header #searchform {
+	display: none;
 }
 
 #footer-widget-area ul ul li {
