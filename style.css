@@ -11,7 +11,7 @@
 */
 
 body {
-    background: #f9f9f9 linear-gradient(to bottom, #f9f9f9 0, #555555 100%);
+    background: linear-gradient(to bottom, #f9f9f9 0, #555555 100%);
 }
 
 .entry-content ul > li {
@@ -25,10 +25,6 @@ body {
     color: #fff;
 }
 
-#access ul li {
-    background: #333;
-}
-
 .gallery-item {
     max-width: -webkit-calc(11.1%) !important;
     max-width: -moz-calc(11.1% - 1em) !important;
@@ -37,10 +33,6 @@ body {
 .commentlist li.comment {
     line-height: normal;
     background: transparent;
-}
-
-.widget-title {
-    background-color: #333 !important;
 }
 
 .widget-title a.rsswidget:first-child {

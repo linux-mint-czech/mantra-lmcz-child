@@ -14,7 +14,7 @@ register_default_headers( array(
 add_action('cryout_before_content_hook', 'lmcz_mantra_front_page_welcome');
 function lmcz_mantra_front_page_welcome() {
     if (is_front_page()) {
-        echo '<h1 style="text-align: center; color: green; padding: 1em;"><strong>Vítejte na stránkách komunity Linux Mint CZ&amp;SK</strong></h1>';
+        echo '<h1 style="text-align: center; padding: 1em;"><strong>Vítejte na stránkách komunity Linux Mint CZ&amp;SK</strong></h1>';
     }
 }
 
