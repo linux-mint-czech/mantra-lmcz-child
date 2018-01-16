@@ -5,127 +5,73 @@
  * Author: Linux-Mint-Czech.cz
  * Author URI: http://www.linux-mint-czech.cz/
  * Template: mantra
- * Version: 2.6.0
+ * Version: 3.0
  * License: GNU General Public License v2.0
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-#wrapper {
-	box-shadow: gray 0 1px 10px 1px;
-}
-
 body {
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f9f9f9), color-stop(1, #555555));
-	background-image: -moz-linear-gradient(center top, #f9f9f9 0%, #555555 100%);
-	background-image: -o-linear-gradient(top, #f9f9f9 0%, #555555 100%);
-	background-image: -ms-linear-gradient(top, #f9f9f9 0%, #555555 100%);
+    background: #f9f9f9 linear-gradient(to bottom, #f9f9f9 0, #555555 100%);
 }
 
-.single-post #content article.post {
-	width: 100% !important;
-}
-
-.entry-content ul>li {
-	background: none;
-	list-style:disc;
-	list-style-position: inside;
-	padding-left: inherit;
+.entry-content ul > li {
+    background: none;
+    list-style: disc;
+    list-style-position: inside;
+    padding-left: inherit;
 }
 
 #access a {
-	color: #fff;
+    color: #fff;
 }
 
 #access ul li {
-	background:#333;
-}
-
-#content .entry-title {
-  text-shadow: none;
+    background: #333;
 }
 
 .gallery-item {
-	max-width: -webkit-calc(11.1%) !important;
-	max-width: -moz-calc(11.1% - 1em) !important;
+    max-width: -webkit-calc(11.1%) !important;
+    max-width: -moz-calc(11.1% - 1em) !important;
 }
 
 .commentlist li.comment {
-	line-height: normal;
-	background: transparent;
+    line-height: normal;
+    background: transparent;
 }
 
 .widget-title {
-	background-color:#333 !important;
+    background-color: #333 !important;
 }
 
 .widget-title a.rsswidget:first-child {
-  display: none;
+    display: none;
 }
 
 .widget-title a.rsswidget:last-child {
-  color: inherit;
-  font-size: inherit;
+    color: inherit;
+    font-size: inherit;
 }
 
-.widget.buddypress #bp-login-widget-form label[for=bp-login-widget-user-login],
-.widget.buddypress #bp-login-widget-form #bp-login-widget-user-login,
-.widget.buddypress #bp-login-widget-form label[for=bp-login-widget-user-pass],
-.widget.buddypress #bp-login-widget-form #bp-login-widget-user-pass,
-.widget.buddypress #bp-login-widget-form .forgetmenot
-{
-	display: none;
-}
-
-#header #searchform {
-	display: none;
+.widget.buddypress #bp-login-widget-form > *:not([type='submit']):not(span) {
+    display: none !important;
 }
 
 #footer-widget-area ul ul li {
-	padding-bottom:5px;
-	border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
 }
 
-#footer2 {
-	padding: 10px;
-}
-
-article.post {
-	border-bottom: 1px solid #d9d9d9;
-}
-
-/************************************************
-*	Extra										*
-************************************************/
-.code-table
-{
-	border-color: #999999 !important;
-	/*line-height: 25px;*/
-	table-layout: fixed;
-	width: 100%;
-} 
-
-.code-table th
-{
+/*** Extra ***/
+.code-table th {
 	padding: 8px !important;
-	font-family: Droid sans;
-	font-size: 14px;
-	font-style: bold;
 	color: #fff !important;
-	/*text-shadow: rgba(0, 0, 0, 0.298039) 2px 4px 3px;*/
 	background-color: #333 !important;
-	border: 1px solid #999999;
+	border: 1px solid #999;
 }
 
-.code-table td
-{
-	padding: 5px;
+.code-table td {
 	font-family: monospace;
 	background-image: linear-gradient(#ebecda 0%, #e0e0c6 40%, #ceceb7 100%);
-	border-right-width: 1px;
-	border-bottom-width: 1px;
-	border-left-width: 1px;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-left-style: solid;
-	border-color: #999999;
+	border: 1px solid #999;
 }
+
