@@ -25,6 +25,10 @@ body {
     color: #fff;
 }
 
+a.wp-block-button__link {
+    color: lightgreen;
+}
+
 .gallery-item {
     max-width: -webkit-calc(11.1%) !important;
     max-width: -moz-calc(11.1% - 1em) !important;
