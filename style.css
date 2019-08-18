@@ -48,10 +48,6 @@ body {
     font-size: inherit;
 }
 
-.widget.buddypress #bp-login-widget-form > *:not([type='submit']):not(span) {
-    display: none !important;
-}
-
 #footer-widget-area ul ul li {
     padding-bottom: 5px;
     border-bottom: 1px solid #000;
@@ -70,4 +66,3 @@ body {
 	background-image: linear-gradient(#ebecda 0%, #e0e0c6 40%, #ceceb7 100%);
 	border: 1px solid #999;
 }
-
